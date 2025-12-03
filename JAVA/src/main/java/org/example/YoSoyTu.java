@@ -8,7 +8,7 @@ public class YoSoyTu {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("--------- PROGRAMA: Yo Soy Tu ... ---------");
+        System.out.println("----------------------------------------------");
 
         System.out.print("Introduce cuantas pruebas se quieren realizar: ");
         int num_pruebas = teclado.nextInt();

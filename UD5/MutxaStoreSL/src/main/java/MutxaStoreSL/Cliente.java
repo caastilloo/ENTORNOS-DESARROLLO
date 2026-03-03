@@ -1,4 +1,4 @@
-package org.example;
+package MutxaStoreSL;
 
 import java.time.LocalDate;
 

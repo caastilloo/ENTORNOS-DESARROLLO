@@ -1,0 +1,24 @@
+@startuml
+
+package MutxaStoreSL {
+
+    class Cliente {
+        - idCliente : String
+        - nombre : String
+        - apellidos : String
+        - email : String
+        - fechaRegistro : LocalDate
+    }
+
+    class Videojuego {
+        - titulo : String
+        - plataforma : String
+        - genero : String
+        - anyoNacimiento : int
+        - precio : double
+        - stockDispo : int
+    }
+
+}
+
+@enduml

@@ -67,4 +67,10 @@ class AlienTest {
 
         assertNotNull(alien);
     }
+
+//    @Test
+//    void pruebaQueFalla() {
+//        Alien alien = new Alien("Zorg", "MARS01");
+//        assertEquals("Xenomorph", alien.getName());
+//    }
 }

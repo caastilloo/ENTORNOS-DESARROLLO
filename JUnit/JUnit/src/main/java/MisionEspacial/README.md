@@ -136,9 +136,47 @@ Si todos los tests pasan correctamente aparecerán **en verde**.
 
 ---
 
+# Ejemplo de tests correctos
+
+### Resultado de los tests correctos
+
+![Tests correctos](img/imagen-test-correctos.png)
+
+---
+
 # Ejemplo de test que falla
 
 Para entender mejor cómo funciona JUnit, se creó un test con un valor incorrecto:
 
 ```java
 assertEquals("Xenomorph", alien.getName());
+```
+
+Al ejecutar este test se produce un error porque el valor esperado no coincide con el valor real.
+
+- **Expected:** Xenomorph
+- **Actual:** Zorg
+
+Esto ayuda a localizar rápidamente el error y entender qué valor está fallando.
+
+### Resultado del test fallido
+
+![Test fallido](img/imagen-test-fallo.png)
+
+
+---
+
+# Cobertura de código
+
+También se ejecutaron los tests utilizando la opción **Run with Coverage** de IntelliJ.
+
+La cobertura de código permite comprobar **qué partes del programa han sido ejecutadas por los tests**.
+
+En IntelliJ los colores indican:
+
+- **Verde** → código ejecutado por los tests
+- **Rojo** → código no ejecutado
+
+### Resultado de la cobertura
+
+![Cobertura de código](img/coverage-alien.png)

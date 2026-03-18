@@ -10,7 +10,7 @@ El objetivo principal ha sido comprobar el correcto funcionamiento de sus métod
 ## Estructura del proyecto
 
 * `Calculadora.java` → Clase principal con las operaciones
-* `CalculadoraABTest.java` → Clase de pruebas unitarias
+* `CalculadoraJRTest.java` → Clase de pruebas unitarias
 * `OtraClaseDePruebasTest.java` → Clase adicional de prueba
 * `SuitePruebasAB.java` → Suite de pruebas
 
